@@ -1,0 +1,7 @@
+{ "name" : "node-bbb"
+, "description" : "lib-bbb bindings for node"
+, "version" : "1.0.0"
+, "author" : "Ville Mölsä <ville.molsa@gmail.com> (http://github.com/vmolsa)"
+, "main" : "./build/Release/bbb"
+, "scripts" : { "test" : "node test.js" }
+}
