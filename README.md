@@ -1,4 +1,4 @@
 node-bbb
 ========
 
-lib-bbb bindings for node.js
+[lib-bbb](https://github.com/vmolsa/lib-bbb) bindings for node.js
