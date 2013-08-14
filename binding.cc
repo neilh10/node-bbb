@@ -57,7 +57,7 @@ Handle<Value> bind_getADC(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1 || !args[0]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getADC(int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -70,7 +70,7 @@ Handle<Value> bind_enableI2Cdevice(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 3 || !args[0]->IsInt32() || !args[1]->IsString() || !args[2]->IsString()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: enableI2Cdevice(int, string, string)")));
 		return scope.Close(Undefined());
 	}
 
@@ -92,7 +92,7 @@ Handle<Value> bind_disableI2Cdevice(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsString()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: disableI2Cdevice(int, string)")));
 		return scope.Close(Undefined());
 	}
 
@@ -112,7 +112,7 @@ Handle<Value> bind_getGpio(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getGpio([string|int])")));
 		return scope.Close(Undefined());
 	}
 
@@ -125,7 +125,7 @@ Handle<Value> bind_getGpio(const Arguments& args) {
 			v8::String::Utf8Value value(args[0]->ToString());
 			gpio = bbb_getGpio(bbb_getIndexByStr(*value));
 		} else {
-			ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+			ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getGpio([string|int])")));
 			return scope.Close(Undefined());
 		}
 	}
@@ -138,7 +138,7 @@ Handle<Value> bind_enableGpio(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1 || args[0]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: enableGpio(int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -156,7 +156,7 @@ Handle<Value> bind_disableGpio(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1 || args[0]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: disableGpio(int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -174,7 +174,7 @@ Handle<Value> bind_setGpioDirection(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || args[0]->IsInt32() || args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: setGpioDirection(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -194,7 +194,7 @@ Handle<Value> bind_getGpioDirection(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1 || !args[0]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getGpioDirection(int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -213,7 +213,7 @@ Handle<Value> bind_setGpioValue(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: setGpioValue(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -234,7 +234,7 @@ Handle<Value> bind_getGpioValue(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1 || !args[0]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getGpioValue(int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -252,7 +252,7 @@ Handle<Value> bind_getHeader(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getHeader([string|int])")));
 		return scope.Close(Undefined());
 	}
 
@@ -265,7 +265,7 @@ Handle<Value> bind_getHeader(const Arguments& args) {
 			v8::String::Utf8Value value(args[0]->ToString());
 			header = bbb_getHeader(bbb_getIndexByStr(*value));
 		} else {
-			ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+			ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getHeader([string|int])")));
 			return scope.Close(Undefined());
 		}
 	}
@@ -277,7 +277,7 @@ Handle<Value> bind_getPin(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getPin([string|int])")));
 		return scope.Close(Undefined());
 	}
 
@@ -290,7 +290,7 @@ Handle<Value> bind_getPin(const Arguments& args) {
 			v8::String::Utf8Value value(args[0]->ToString());
 			pin = bbb_getPin(bbb_getIndexByStr(*value));
 		} else {
-			ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+			ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getPin([string|int])")));
 			return scope.Close(Undefined());
 		}
 	}
@@ -303,7 +303,7 @@ Handle<Value> bind_enablePwm(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: enablePwm(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -322,7 +322,7 @@ Handle<Value> bind_setPwmPeriod(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 3 || !args[0]->IsInt32() || !args[1]->IsInt32() || !args[2]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argumens! Syntax: setPwmPeriod(int, int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -342,7 +342,7 @@ Handle<Value> bind_setPwmDuty(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 3 || !args[0]->IsInt32() || !args[1]->IsInt32() || !args[2]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: setPwmDuty(int, int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -362,7 +362,7 @@ Handle<Value> bind_setPwmHz(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 3 || !args[0]->IsInt32() || !args[1]->IsInt32() || !args[2]->IsString()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: setPwmHz(int, int, string)")));
 		return scope.Close(Undefined());
 	}
 
@@ -382,7 +382,7 @@ Handle<Value> bind_setPwmPercent(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 3 || !args[0]->IsInt32() || !args[1]->IsInt32() || !args[2]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: setPwmPercent(int, int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -402,7 +402,7 @@ Handle<Value> bind_setPwmPolarity(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 3 || !args[0]->IsInt32() || !args[1]->IsInt32() || !args[2]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! setPwmPolarity(int, int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -422,7 +422,7 @@ Handle<Value> bind_getPwmPeriod(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: getPwmPeriod(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -442,7 +442,7 @@ Handle<Value> bind_getPwmDuty(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: getPwmDuty(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -462,7 +462,7 @@ Handle<Value> bind_getPwmHz(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: getPwmHz(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -477,7 +477,7 @@ Handle<Value> bind_getPwmPercent(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong arguments! Syntax: getPwmPercent(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -497,7 +497,7 @@ Handle<Value> bind_getPwmPolarity(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 2 || !args[0]->IsInt32() || !args[1]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: getPwmPolarity(int, int)")));
 		return scope.Close(Undefined());
 	}
 
@@ -517,7 +517,7 @@ Handle<Value> bind_enableSerial(const Arguments& args) {
 	HandleScope scope;
 
 	if (args.Length() != 1 || !args[0]->IsInt32()) {
-		ThrowException(Exception::TypeError(String::New("Wrong argument!")));
+		ThrowException(Exception::TypeError(String::New("Wrong argument! Syntax: enableSerial(int)")));
 		return scope.Close(Undefined());
 	}
 
