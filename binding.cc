@@ -29,6 +29,7 @@
  
 #include <node.h>
 #include <v8.h>
+#include <inttypes.h>
 #include <string>
 #include <iostream>
 #include <sstream>
