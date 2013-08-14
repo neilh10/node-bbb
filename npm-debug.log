@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '.' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/villemolsa/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+12 verbose folder .
+13 info prepublish node-bbb@1.0.5
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/villemolsa/.npm/1f1177db-tar.lock
+16 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+17 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz /Users/villemolsa/.npm/80d09770-61934-0-5996242284309119-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+21 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+22 verbose tar unpack /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+23 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+24 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package /Users/villemolsa/.npm/0dae337d-61934-0-5996242284309119-package.lock
+25 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+26 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz /Users/villemolsa/.npm/80d09770-61934-0-5996242284309119-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm extractEntry test.js
+32 silly gunzTarPerm extractEntry Makefile
+33 silly gunzTarPerm extractEntry binding.cc
+34 silly gunzTarPerm extractEntry binding.gyp
+35 silly gunzTarPerm extractEntry push.sh
+36 silly gunzTarPerm extractEntry wrapper.h
+37 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+38 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+39 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+40 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+41 verbose tar pack [ '/Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz',
+41 verbose tar pack   '/var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package' ]
+42 verbose tarball /Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+43 verbose folder /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+44 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+45 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package /Users/villemolsa/.npm/0dae337d-61934-0-5996242284309119-package.lock
+46 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+47 verbose lock tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz /Users/villemolsa/.npm/c7caf800-a-npm-node-bbb-1-0-5-package-tgz.lock
+48 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+49 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+50 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+51 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+52 silly lockFile 9c0da6b5-molsa-npm-node-bbb-1-0-5-package /Users/villemolsa/.npm/node-bbb/1.0.5/package
+53 verbose lock /Users/villemolsa/.npm/node-bbb/1.0.5/package /Users/villemolsa/.npm/9c0da6b5-molsa-npm-node-bbb-1-0-5-package.lock
+54 silly lockFile 9c0da6b5-molsa-npm-node-bbb-1-0-5-package /Users/villemolsa/.npm/node-bbb/1.0.5/package
+55 silly lockFile 9c0da6b5-molsa-npm-node-bbb-1-0-5-package /Users/villemolsa/.npm/node-bbb/1.0.5/package
+56 verbose tar unpack /Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+57 silly lockFile 99754289-molsa-npm-node-bbb-1-0-5-package tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package
+58 verbose lock tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package /Users/villemolsa/.npm/99754289-molsa-npm-node-bbb-1-0-5-package.lock
+59 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+60 verbose lock tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz /Users/villemolsa/.npm/c7caf800-a-npm-node-bbb-1-0-5-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry LICENSE
+65 silly gunzTarPerm extractEntry test.js
+66 silly gunzTarPerm extractEntry Makefile
+67 silly gunzTarPerm extractEntry binding.cc
+68 silly gunzTarPerm extractEntry binding.gyp
+69 silly gunzTarPerm extractEntry push.sh
+70 silly gunzTarPerm extractEntry wrapper.h
+71 silly lockFile 99754289-molsa-npm-node-bbb-1-0-5-package tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package
+72 silly lockFile 99754289-molsa-npm-node-bbb-1-0-5-package tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package
+73 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+74 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
+75 verbose chmod /Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz 644
+76 verbose chown /Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz [ 501, 20 ]
+77 silly lockFile 3a52ce78- .
+78 silly lockFile 3a52ce78- .
+79 silly publish { name: 'node-bbb',
+79 silly publish   description: 'lib-bbb bindings for node',
+79 silly publish   version: '1.0.5',
+79 silly publish   author:
+79 silly publish    { name: 'Ville Mölsä',
+79 silly publish      email: 'ville.molsa@gmail.com',
+79 silly publish      url: 'http://github.com/vmolsa' },
+79 silly publish   main: './build/Release/bbb',
+79 silly publish   scripts: { test: 'node test.js', install: 'node-gyp rebuild' },
+79 silly publish   gypfile: true,
+79 silly publish   readme: 'node-bbb\n========\n\n[lib-bbb](https://github.com/vmolsa/lib-bbb) bindings for node.js\n',
+79 silly publish   readmeFilename: 'README.md',
+79 silly publish   _id: 'node-bbb@1.0.5',
+79 silly publish   dist: { shasum: '6a71ae2533ab1a0cf487fb13059ac8d9b0f1f5d8' },
+79 silly publish   _from: '.' }
+80 verbose url raw node-bbb
+81 verbose url resolving [ 'https://registry.npmjs.org/', './node-bbb' ]
+82 verbose url resolved https://registry.npmjs.org/node-bbb
+83 info trying registry request attempt 1 at 10:34:22
+84 http PUT https://registry.npmjs.org/node-bbb
+85 http 409 https://registry.npmjs.org/node-bbb
+86 verbose url raw node-bbb
+87 verbose url resolving [ 'https://registry.npmjs.org/', './node-bbb' ]
+88 verbose url resolved https://registry.npmjs.org/node-bbb
+89 info trying registry request attempt 1 at 10:34:23
+90 http GET https://registry.npmjs.org/node-bbb
+91 http 200 https://registry.npmjs.org/node-bbb
+92 error publish fail Cannot publish over existing version.
+92 error publish fail Update the 'version' field in package.json and try again.
+92 error publish fail
+92 error publish fail If the previous version was published in error, see:
+92 error publish fail     npm help unpublish
+92 error publish fail
+92 error publish fail To automatically increment version numbers, see:
+92 error publish fail     npm help version
+93 error System Darwin 12.4.0
+94 error command "node" "/usr/local/bin/npm" "publish" "."
+95 error cwd /Users/villemolsa/Documents/workspace/node-bbb
+96 error node -v v0.10.15
+97 error npm -v 1.3.5
+98 error code EPUBLISHCONFLICT
+99 verbose exit [ 1, true ]
