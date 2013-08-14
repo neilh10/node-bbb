@@ -19,24 +19,24 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /Users/villemolsa/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz',
+10 verbose tar pack [ '/var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz',
 10 verbose tar pack   '.' ]
-11 verbose tarball /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+11 verbose tarball /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
 12 verbose folder .
 13 info prepublish node-bbb@1.0.5
 14 silly lockFile 1f1177db-tar tar://.
 15 verbose lock tar://. /Users/villemolsa/.npm/1f1177db-tar.lock
-16 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
-17 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz /Users/villemolsa/.npm/80d09770-61934-0-5996242284309119-tmp-tgz.lock
+16 silly lockFile 552194f9-221612-0-217632764717564-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
+17 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz /Users/villemolsa/.npm/552194f9-221612-0-217632764717564-tmp-tgz.lock
 18 silly lockFile 1f1177db-tar tar://.
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
-21 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
-22 verbose tar unpack /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
-23 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
-24 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package /Users/villemolsa/.npm/0dae337d-61934-0-5996242284309119-package.lock
-25 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
-26 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz /Users/villemolsa/.npm/80d09770-61934-0-5996242284309119-tmp-tgz.lock
+20 silly lockFile 552194f9-221612-0-217632764717564-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
+21 silly lockFile 552194f9-221612-0-217632764717564-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
+22 verbose tar unpack /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
+23 silly lockFile 467064a6-221612-0-217632764717564-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package
+24 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package /Users/villemolsa/.npm/467064a6-221612-0-217632764717564-package.lock
+25 silly lockFile 552194f9-221612-0-217632764717564-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
+26 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz /Users/villemolsa/.npm/552194f9-221612-0-217632764717564-tmp-tgz.lock
 27 silly gunzTarPerm modes [ '755', '644' ]
 28 silly gunzTarPerm extractEntry package.json
 29 silly gunzTarPerm extractEntry README.md
@@ -47,20 +47,20 @@
 34 silly gunzTarPerm extractEntry binding.gyp
 35 silly gunzTarPerm extractEntry push.sh
 36 silly gunzTarPerm extractEntry wrapper.h
-37 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
-38 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
-39 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
-40 silly lockFile 80d09770-61934-0-5996242284309119-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/tmp.tgz
+37 silly lockFile 467064a6-221612-0-217632764717564-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package
+38 silly lockFile 467064a6-221612-0-217632764717564-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package
+39 silly lockFile 552194f9-221612-0-217632764717564-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
+40 silly lockFile 552194f9-221612-0-217632764717564-tmp-tgz tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/tmp.tgz
 41 verbose tar pack [ '/Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz',
-41 verbose tar pack   '/var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package' ]
+41 verbose tar pack   '/var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package' ]
 42 verbose tarball /Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
-43 verbose folder /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
-44 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
-45 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package /Users/villemolsa/.npm/0dae337d-61934-0-5996242284309119-package.lock
+43 verbose folder /var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package
+44 silly lockFile 467064a6-221612-0-217632764717564-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package
+45 verbose lock tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package /Users/villemolsa/.npm/467064a6-221612-0-217632764717564-package.lock
 46 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
 47 verbose lock tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz /Users/villemolsa/.npm/c7caf800-a-npm-node-bbb-1-0-5-package-tgz.lock
-48 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
-49 silly lockFile 0dae337d-61934-0-5996242284309119-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16620-Pn3QF3o1/1376465661934-0.5996242284309119/package
+48 silly lockFile 467064a6-221612-0-217632764717564-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package
+49 silly lockFile 467064a6-221612-0-217632764717564-package tar:///var/folders/y7/67s4cqkj19g8g1_gjw2ll3rw0000gn/T/npm-16930-IgwNR8Dd/1376466221612-0.217632764717564/package
 50 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
 51 silly lockFile c7caf800-a-npm-node-bbb-1-0-5-package-tgz tar:///Users/villemolsa/.npm/node-bbb/1.0.5/package.tgz
 52 silly lockFile 9c0da6b5-molsa-npm-node-bbb-1-0-5-package /Users/villemolsa/.npm/node-bbb/1.0.5/package
@@ -93,6 +93,9 @@
 79 silly publish { name: 'node-bbb',
 79 silly publish   description: 'lib-bbb bindings for node',
 79 silly publish   version: '1.0.5',
+79 silly publish   url: 'https://github.com/vmolsa/node-bbb/issues',
+79 silly publish   license: 'BSD',
+79 silly publish   repository: { type: 'git', url: 'https://github.com/vmolsa/node-bbb' },
 79 silly publish   author:
 79 silly publish    { name: 'Ville Mölsä',
 79 silly publish      email: 'ville.molsa@gmail.com',
@@ -102,19 +105,20 @@
 79 silly publish   gypfile: true,
 79 silly publish   readme: 'node-bbb\n========\n\n[lib-bbb](https://github.com/vmolsa/lib-bbb) bindings for node.js\n',
 79 silly publish   readmeFilename: 'README.md',
+79 silly publish   bugs: { url: 'https://github.com/vmolsa/node-bbb/issues' },
 79 silly publish   _id: 'node-bbb@1.0.5',
-79 silly publish   dist: { shasum: '6a71ae2533ab1a0cf487fb13059ac8d9b0f1f5d8' },
+79 silly publish   dist: { shasum: 'ffb7be0d17cd88ceb1482561983d406e567bc154' },
 79 silly publish   _from: '.' }
 80 verbose url raw node-bbb
 81 verbose url resolving [ 'https://registry.npmjs.org/', './node-bbb' ]
 82 verbose url resolved https://registry.npmjs.org/node-bbb
-83 info trying registry request attempt 1 at 10:34:22
+83 info trying registry request attempt 1 at 10:43:41
 84 http PUT https://registry.npmjs.org/node-bbb
 85 http 409 https://registry.npmjs.org/node-bbb
 86 verbose url raw node-bbb
 87 verbose url resolving [ 'https://registry.npmjs.org/', './node-bbb' ]
 88 verbose url resolved https://registry.npmjs.org/node-bbb
-89 info trying registry request attempt 1 at 10:34:23
+89 info trying registry request attempt 1 at 10:43:43
 90 http GET https://registry.npmjs.org/node-bbb
 91 http 200 https://registry.npmjs.org/node-bbb
 92 error publish fail Cannot publish over existing version.
