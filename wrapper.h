@@ -2,6 +2,7 @@
 #define _WRAPPER_H
 
 extern "C" {
+#include <inttypes.h>
 #include <bbb.h>
 }
 
